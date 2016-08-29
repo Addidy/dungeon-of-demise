@@ -50,11 +50,15 @@ ModelImporter:
     400040: Root
     400042: Upper_Torso
     4300000: Cube
-    7400000: Default Take
+    7400000: PowerSlide
     7400002: Idle
     7400004: PoseLib
     7400006: Run
     7400008: Idle0
+    7400010: HeadBop
+    7400012: IdleStart
+    7400014: PowerSlide
+    7400016: IdleStart0
     9500000: //RootNode
     13700000: Cube
   materials:
@@ -72,84 +76,12 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
+    animationRotationError: 16.12
+    animationPositionError: 14.75
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
-    - serializedVersion: 16
-      name: Idle0
-      takeName: Idle
-      firstFrame: 0
-      lastFrame: 9
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Armature
-        weight: 1
-      - path: Armature/Left_Upper_Leg
-        weight: 1
-      - path: Armature/Left_Upper_Leg/Left_Lower_Leg
-        weight: 1
-      - path: Armature/Left_Upper_Leg/Left_Lower_Leg/Left_Foot
-        weight: 1
-      - path: Armature/Right_Upper_Leg
-        weight: 1
-      - path: Armature/Right_Upper_Leg/Right_Lower_Leg
-        weight: 1
-      - path: Armature/Right_Upper_Leg/Right_Lower_Leg/Right_Foot
-        weight: 1
-      - path: Armature/Root
-        weight: 1
-      - path: Armature/Root/Core
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm/Left_Hand
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Neck
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Neck/Head
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Right_Shoulder
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm
-        weight: 1
-      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm/Right_Hand
-        weight: 1
-      - path: Cube
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Idle
       takeName: Idle
@@ -223,10 +155,82 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: PoseLib
-      takeName: PoseLib
+      name: Run
+      takeName: Run
       firstFrame: 0
-      lastFrame: 1
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Left_Upper_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg/Left_Foot
+        weight: 1
+      - path: Armature/Right_Upper_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg/Right_Foot
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Core
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm/Left_Hand
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck/Head
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm/Right_Hand
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PowerSlide
+      takeName: PowerSlide
+      firstFrame: 0
+      lastFrame: 9
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -295,17 +299,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Run
-      takeName: Run
+      name: IdleStart
+      takeName: IdleStart
       firstFrame: 0
-      lastFrame: 36
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

@@ -16,7 +16,9 @@ public class StoneDoor : MonoBehaviour {
 
     void Update() {
         if (!activated) { return; }
-        transform.position += new Vector3(0, openSpeed, 0);
+        if (transform.position.y < 10) {
+            transform.position += new Vector3(0, openSpeed * Time.deltaTime, 0);
+        }
     }
 
     public void Activate() {

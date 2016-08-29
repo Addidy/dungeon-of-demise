@@ -3,9 +3,10 @@ using System.Collections;
 
 public class CustomDebug : MonoBehaviour {
 
-    public float timeRate = 1;
+    public float timeRate = 1; 
     public Trap spawnBoulder;
     public bool DestroyBoulders = true;
+    //public bool light = false;
 
     private GameObject player;
 
@@ -16,15 +17,17 @@ public class CustomDebug : MonoBehaviour {
         FindObjectOfType<GameManager>().StartGame();
         spawnBoulder.Activate();
         Time.timeScale = timeRate;
-
+        //this.GetComponentInChildren<Light>().gameObject.SetActive(light);
 	}
 
     void Update() {
-        print("destroy boulder" + DestroyBoulders);
 
-            if (FindObjectOfType<Boulder>() && DestroyBoulders) { 
-                GameObject boulder = FindObjectOfType<Boulder>().gameObject;
-                Destroy(boulder);
-            }
+        if (FindObjectOfType<Boulder>() && DestroyBoulders) { 
+            GameObject boulder = FindObjectOfType<Boulder>().gameObject;
+            Destroy(boulder);
+            Destroy(this);
+        }else if(!DestroyBoulders) {
+            Destroy(this);
         }
+    }
 }

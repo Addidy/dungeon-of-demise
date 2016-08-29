@@ -5,6 +5,7 @@ using System.Collections;
 
 [RequireComponent(typeof(Text))]
 public class TextFade : MonoBehaviour {
+    public float delay = 0f;
     [Range(0, 1)]
     public float fadeFrom = 0;
     [Range(0, 1)]
@@ -30,7 +31,8 @@ public class TextFade : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        UpdateAlpha(Mathf.Clamp(text.color.a + Rate * Time.deltaTime, 0, 1));
+        if (Time.timeSinceLevelLoad >= delay)
+            UpdateAlpha(Mathf.Clamp(text.color.a + Rate * Time.deltaTime, 0, 1));
     }
 
     private void UpdateAlpha(float value) {

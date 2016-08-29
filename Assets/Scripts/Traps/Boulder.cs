@@ -55,7 +55,7 @@ public class Boulder : MonoBehaviour {
         return true;
     }
 
-    void ResetSpeed() {
+    public void ResetSpeed() {
         agent.speed = minSpeed;
     }
 }

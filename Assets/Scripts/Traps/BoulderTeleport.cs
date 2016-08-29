@@ -18,6 +18,7 @@ public class BoulderTeleport : Trap {
             }
             GameObject boulder = FindObjectOfType<Boulder>().gameObject;
             boulder.GetComponent<NavMeshAgent>().Warp(transform.position);
+            boulder.GetComponent<Boulder>().ResetSpeed();
         }
     }
 }

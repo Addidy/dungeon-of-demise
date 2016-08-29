@@ -4,13 +4,11 @@ using System.Collections;
 [RequireComponent(typeof(Collider))]
 public class TrapTrigger : MonoBehaviour {
 
-    public Trap trap;
+    private Trap trap;
 
 	// Use this for initialization
 	void Start () {
-	    if(!trap) {
-            print("No Trap set");
-        }
+        trap = transform.GetComponentInParent<Trap>();
 	}
 
     void OnTriggerEnter(Collider col) {

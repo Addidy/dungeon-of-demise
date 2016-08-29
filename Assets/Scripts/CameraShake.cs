@@ -39,7 +39,7 @@ public class CameraShake : MonoBehaviour {
             float zOffset = Random.Range(-strength, strength);
             float yOffset = Random.Range(-strength, strength);
 
-            transform.localPosition = new Vector3(restPosition.x, restPosition.y + yOffset, restPosition.z + zOffset);
+            transform.localPosition = new Vector3(targetPosition.x, targetPosition.y + yOffset, targetPosition.z + zOffset);
         }
     }
 

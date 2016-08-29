@@ -18,4 +18,8 @@ public class Trap : MonoBehaviour {
             return;
         //Depending on the trap different functionality will be added
     }
+
+    void OnDrawGizmos() {
+        Gizmos.DrawIcon(transform.position, "Light Gizmo.tiff", true);
+    }
 }
