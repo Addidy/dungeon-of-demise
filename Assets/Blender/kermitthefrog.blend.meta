@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: 19eb75c51f27bb143aeedf869aab31df
+timeCreated: 1472407750
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Core
+    100004: Cube
+    100006: Head
+    100008: //RootNode
+    100010: Left_Foot
+    100012: Left_Hand
+    100014: Left_Lower_Arm
+    100016: Left_Lower_Leg
+    100018: Left_Shoulder
+    100020: Left_Upper_Arm
+    100022: Left_Upper_Leg
+    100024: Neck
+    100026: Right_Foot
+    100028: Right_Hand
+    100030: Right_Lower_Arm
+    100032: Right_Lower_Leg
+    100034: Right_Shoulder
+    100036: Right_Upper_Arm
+    100038: Right_Upper_Leg
+    100040: Root
+    100042: Upper_Torso
+    400000: Armature
+    400002: Core
+    400004: Cube
+    400006: Head
+    400008: //RootNode
+    400010: Left_Foot
+    400012: Left_Hand
+    400014: Left_Lower_Arm
+    400016: Left_Lower_Leg
+    400018: Left_Shoulder
+    400020: Left_Upper_Arm
+    400022: Left_Upper_Leg
+    400024: Neck
+    400026: Right_Foot
+    400028: Right_Hand
+    400030: Right_Lower_Arm
+    400032: Right_Lower_Leg
+    400034: Right_Shoulder
+    400036: Right_Upper_Arm
+    400038: Right_Upper_Leg
+    400040: Root
+    400042: Upper_Torso
+    4300000: Cube
+    7400000: Default Take
+    7400002: Idle
+    7400004: PoseLib
+    7400006: Run
+    7400008: Idle0
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle0
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Left_Upper_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg/Left_Foot
+        weight: 1
+      - path: Armature/Right_Upper_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg/Right_Foot
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Core
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm/Left_Hand
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck/Head
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm/Right_Hand
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Left_Upper_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg/Left_Foot
+        weight: 1
+      - path: Armature/Right_Upper_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg/Right_Foot
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Core
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm/Left_Hand
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck/Head
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm/Right_Hand
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PoseLib
+      takeName: PoseLib
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Left_Upper_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg/Left_Foot
+        weight: 1
+      - path: Armature/Right_Upper_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg/Right_Foot
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Core
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm/Left_Hand
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck/Head
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm/Right_Hand
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Left_Upper_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg
+        weight: 1
+      - path: Armature/Left_Upper_Leg/Left_Lower_Leg/Left_Foot
+        weight: 1
+      - path: Armature/Right_Upper_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg
+        weight: 1
+      - path: Armature/Right_Upper_Leg/Right_Lower_Leg/Right_Foot
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Core
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Left_Shoulder/Left_Upper_Arm/Left_Lower_Arm/Left_Hand
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Neck/Head
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Shoulder
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm
+        weight: 1
+      - path: Armature/Root/Core/Upper_Torso/Right_Upper_Arm/Right_Lower_Arm/Right_Hand
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
